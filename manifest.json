@@ -1,0 +1,16 @@
+{
+    "name": "My Chrome Extension",
+    "version": "1.0.0",
+    "description": "Welcome to the world of FUN!!",
+    "manifest_version": 3,
+    "author": "Shrestha Katiyar",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "log.png"
+    },
+    "icons":{
+        "128": "log.png"
+    },
+    "permissions": ["activeTab"]
+
+}
